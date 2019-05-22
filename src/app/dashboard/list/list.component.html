@@ -1,0 +1,18 @@
+<h2>Analytics table</h2>
+<b>Total count views: {{count}}</b>
+<table class="table table-bordered table-striped">
+    <thead>
+    <tr>
+        <th scope="col">id</th>
+        <th scope="col">name</th>
+        <th scope="col">count views</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let product of productService.products">
+        <th>{{product.id}}</th>
+        <td>{{product.name}}</td>
+        <td>{{product.count}}</td>
+    </tr>
+    </tbody>
+</table>

@@ -1,0 +1,11 @@
+.products-list .card {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.products-list .card .card__img {
+    width: auto;
+    max-height: 250px;
+    display: block;
+    margin: 0 auto;
+}

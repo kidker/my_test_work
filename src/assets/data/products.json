@@ -1,0 +1,38 @@
+[
+  {
+    "id" : 1,
+    "name" : "MacBook Pro",
+    "price" : 2100,
+    "description" : "With eighth-generation Intel Core processors, MacBook Pro reaches new heights in compute performance",
+    "img" : "assets/images/products/macbook.png",
+    "count": 10
+  },
+  {
+    "id" : 2,
+    "name" : "Apple TV",
+    "price" : 500,
+    "img" : "assets/images/products/apple_tv.png",
+    "count": 5
+  },
+  {
+    "id" : 3,
+    "name" : "Apple Ipad",
+    "price" : 400,
+    "img" : "assets/images/products/ipad.png",
+    "count": 0
+  },
+  {
+    "id" : 4,
+    "name" : "Apple Iphone X",
+    "price" : 700,
+    "img" : "assets/images/products/iphone_x.png",
+    "count": 0
+  },
+  {
+    "id" : 5,
+    "name" : "Apple IWatch 4 Series",
+    "price" : 400,
+    "img" : "assets/images/products/iwatch.png",
+    "count": 0
+  }
+]

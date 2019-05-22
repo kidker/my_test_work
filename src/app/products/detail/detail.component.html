@@ -1,0 +1,14 @@
+<h2>Product detail</h2>
+<div class="products-list">
+    <div *ngIf="product">
+        <div class="card-columns">
+            <div class="card">
+                <img [src]="product.img" class="card-img-top card__img" alt="Alt image">
+                <div class="card-body">
+                    <h5 class="card-title">{{product.name}}</h5>
+                    <p class="card-text">Price: $ {{product.price}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
