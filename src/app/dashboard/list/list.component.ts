@@ -10,6 +10,7 @@ import { Product } from '../../shared/models/Product';
 export class ListComponent implements OnInit {
 
     private count:number = 0;
+
     constructor(private productService:ProductService) {
     }
 
@@ -31,6 +32,8 @@ export class ListComponent implements OnInit {
                 this.productService.products = data;
                 this.getTotalCountViews();
             });
+        } else {
+            this.getTotalCountViews();
         }
     }
 
